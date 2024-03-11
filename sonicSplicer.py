@@ -26,7 +26,9 @@ def main():
     # root.grid_rowconfigure(0, weight=1)
     frame1 = tk.Frame(root, bg='black', bd=2, relief='solid')
     frame2 = tk.Frame(root, bg='black', bd=2, relief='solid')
-    
+    frame3 = tk.Frame(root, bg='black', bd=2, relief='solid')
+    frame4 = tk.Frame(root, bg='black', bd=2, relief='solid')
+    frame5 = tk.Frame(root, bg='black', bd=2, relief='solid')
 
     # Start the Tkinter event loop.
     root.mainloop()
