@@ -33,6 +33,9 @@ def main():
     #Place frames in a layout.
     frame1.place(relx=0.05, rely=0.05, relwidth=0.2, relheight=0.4)
     frame2.place(relx=0.05, rely=0.55, relwidth=0.2, relheight=0.1)
+    frame3.place(relx=0.3, rely=0.05, relwidth=0.4, relheight=0.6)
+    frame4.place(relx=0.75, rely=0.05, relwidth=0.2, relheight=0.3)
+    
 
     # Start the Tkinter event loop.
     root.mainloop()
