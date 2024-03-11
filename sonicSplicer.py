@@ -30,6 +30,10 @@ def main():
     frame4 = tk.Frame(root, bg='black', bd=2, relief='solid')
     frame5 = tk.Frame(root, bg='black', bd=2, relief='solid')
 
+    #Place frames in a layout.
+    frame1.place(relx=0.05, rely=0.05, relwidth=0.2, relheight=0.4)
+    frame2.place(relx=0.05, rely=0.55, relwidth=0.2, relheight=0.1)
+
     # Start the Tkinter event loop.
     root.mainloop()
 
