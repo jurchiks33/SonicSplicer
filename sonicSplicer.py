@@ -31,9 +31,9 @@ def main():
     frame5 = tk.Frame(root, bg='black', bd=2, relief='solid')
 
     #Place frames in a layout.
-    frame1.place(relx=0.05, rely=0.05, relwidth=0.2, relheight=0.2)
-    frame2.place(relx=0.05, rely=0.39, relwidth=0.2, relheight=0.1)
-    frame3.place(relx=0.3, rely=0.05, relwidth=0.4, relheight=0.6)
+    frame1.place(relx=0.05, rely=0.05, relwidth=0.2, relheight=0.2)  
+    frame2.place(relx=0.05, rely=0.28, relwidth=0.2, relheight=0.2)
+    frame3.place(relx=0.3, rely=0.05, relwidth=0.4, relheight=0.43)
     frame4.place(relx=0.75, rely=0.05, relwidth=0.2, relheight=0.3)
     frame5.place(relx=0.75, rely=0.4, relwidth=0.2, relheight=0.2)
 
