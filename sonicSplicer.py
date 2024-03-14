@@ -24,18 +24,20 @@ def main():
     # # Make the layout responsive to window resizing.
     # root.grid_columnconfigure(0, weight=1)
     # root.grid_rowconfigure(0, weight=1)
-    frame1 = tk.Frame(root, bg='black', bd=2, relief='solid')
-    frame2 = tk.Frame(root, bg='black', bd=2, relief='solid')
-    frame3 = tk.Frame(root, bg='black', bd=2, relief='solid')
-    frame4 = tk.Frame(root, bg='black', bd=2, relief='solid')
-    frame5 = tk.Frame(root, bg='black', bd=2, relief='solid')
+    frame1 = tk.Frame(root, bg='silver', bd=2, relief='solid')
+    frame2 = tk.Frame(root, bg='silver', bd=2, relief='solid')
+    frame3 = tk.Frame(root, bg='silver', bd=2, relief='solid')
+    frame4 = tk.Frame(root, bg='silver', bd=2, relief='solid')
+    frame5 = tk.Frame(root, bg='silver', bd=2, relief='solid')
+    frame6 = tk.Frame(root, bg='silver', bd=2, relief='solid')
 
     #Place frames in a layout.
     frame1.place(relx=0.05, rely=0.05, relwidth=0.2, relheight=0.2)  
     frame2.place(relx=0.05, rely=0.28, relwidth=0.2, relheight=0.2)
     frame3.place(relx=0.3, rely=0.05, relwidth=0.4, relheight=0.43)
-    frame4.place(relx=0.75, rely=0.05, relwidth=0.2, relheight=0.3)
-    frame5.place(relx=0.75, rely=0.4, relwidth=0.2, relheight=0.2)
+    frame4.place(relx=0.75, rely=0.05, relwidth=0.2, relheight=0.2)
+    frame5.place(relx=0.75, rely=0.28, relwidth=0.2, relheight=0.2)
+    frame6.place(relx=0.26, rely=0.05, relwidth=0.03, relheight=0.42)
 
     # Start the Tkinter event loop.
     root.mainloop()
